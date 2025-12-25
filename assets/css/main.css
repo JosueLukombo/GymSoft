@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url("../icons/bootstrap-icons.css");
+@import url('./animation.css');
+@import url("./header.css");
+
+:root {
+
+    --header-height: 3.7rem;
+
+    --first-color: #c1ff72;
+    --title-color:  #e3e3e3;
+    --text-color: #1b2f45;
+    --text-color-light: #8e8e8e;
+    --body-color: #fff;
+    --body-color-light: #f6f7f8;
+    --body-dark:#3e3e3e;
+
+    --body-font: "Poppins", Helvetica, sans-serif;
+    --biggest-font-size: 2.7rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+    --tiny-font-size: .625rem;
+
+    --font-minium:400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold:700;
+
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+
+    --box-shadow: 0px 0px 15px rgba(1, 29, 56, 0.123);
+
+    --border-radius: 1.5rem;
+
+}
+
+
+::-webkit-scrollbar {
+    background: transparent;
+    width: .35rem;
+    transition:  all .5s;
+}
+::-webkit-scrollbar-thumb {
+    background: #8e8e8e;
+    border-radius: .5rem;
+}
+
+* {
+    box-sizing: border-box !important;
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--body-font) !important;
+    font-size: var(--normal-font-size);
+    transition: .3s all !important;
+}
+body {
+    background-color: var(--body-color) !important;
+    color: var(--text-color);
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+input, button, textarea, select {
+    border: 0;
+    outline: 0;
+    all: unset;
+    cursor: pointer;
+}
+a {
+    text-decoration: none !important;
+}
+ul, ol, p {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+body {
+    background-color: var(--body-color) !important;
+    overflow: hidden;
+}
+img {
+    object-fit: cover !important;
+}
+.card-title-description{
+    display: flex;
+    flex-direction: column;
+
+    strong{
+        font-size: var(--h2-font-size);
+    }
+
+    small{
+        font-size: var(--small-font-size);
+        color: var(--text-color-light);
+    }
+}
+.section-profile{
+    width: 320px;
+}
+.container {
+    width: min(90%, 1150px) !important;
+    margin: 0 auto;
+    transition: .3s all;
+}
+
+
