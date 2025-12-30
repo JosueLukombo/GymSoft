@@ -8,8 +8,58 @@
 
     .section-people{
         width: 300px;
+        height: 30rem;
+        background: var(--body-color-light);
+        display: flex;
+        flex-direction: column;
+        border-bottom-right-radius: 30px;
+     
 
+        .card-porfile{
+            margin: 1rem 15px ;
+            display: flex;
+            align-items: center;
+            width: 90%;
+            gap: 20px;
+            background: var(--body-color);
+            border-radius: var(--border-radius);
+            position: relative;
+
+            /*
+            label{
+                position: absolute;
+                overflow: hidden;
+            }
+            */
+            
+
+            
+
+            small{
+                background-color: var(--text-color);
+                border-radius: 30px;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                }
+            
+           
+            }
+            .card-porfile:hover{
+                height: 90px;
+                align-items: start;
+                cursor: pointer;
+
+              
+        }
+        /*é suposto ele mostra uma descrição básica do dia, ex: tipo de treino e proxima marcação */
+            label:hover{
+                color: blue;
+                overflow: visible;
+        }
     }
+
+    
     .section-blog{
         flex: 1;
     }
@@ -23,7 +73,6 @@
 
 
     .card-search-link-create-blog{
-
         display: flex;
         flex-direction: column;
         gap: 1rem;
