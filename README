@@ -1,0 +1,167 @@
+Objetivo do sistema
+
+    Centralizar e automatizar a gestão do ginásio, permitindo:
+
+    Controle de alunos e planos
+
+    Gestão de pagamentos
+
+    Acompanhamento de treinos e presenças
+
+    Gestão de funcionários
+
+    Relatórios administrativos e financeiros
+
+2. Tipos de utilizadores (Perfis de acesso)
+    🔹 Administrador
+
+        Acesso total ao sistema
+
+        Criação e gestão de usuários
+
+        Definição de planos e preços
+
+        Relatórios financeiros e operacionais
+
+    🔹 Receção / Operador
+
+        Cadastro de alunos
+
+        Registo de pagamentos
+
+        Marcação de presenças
+
+        Consulta de planos e vencimentos
+
+    🔹 Instrutor / Personal Trainer
+
+        Acesso apenas aos seus alunos
+
+        Criação e acompanhamento de planos de treino
+
+        Registo de avaliações físicas
+
+        Anotações de desempenho
+
+    🔹 Aluno (opcional – portal do aluno)
+
+        Visualização do plano de treino
+
+        Consulta do estado do plano/pagamentos
+
+        Histórico de presenças
+
+        Notificações
+
+3. Funcionalidades principais
+    3.1 Gestão de Alunos
+
+        Cadastro completo (nome, contacto, BI, foto, data de inscrição)
+
+        Associação a um plano
+
+        Estado do aluno: ativo / suspenso / vencido
+
+        Histórico de pagamentos e presenças
+
+    3.2 Planos e Mensalidades
+
+        Criação de planos (mensal, trimestral, anual)
+
+        Definição de preços e duração
+
+        Limite de acessos (ex: 1x/dia, livre)
+
+        Data de início e vencimento automático
+
+    📌 Funcionamento:
+
+        Ao cadastrar o aluno, o sistema calcula automaticamente a data de vencimento do plano.
+
+    3.3 Pagamentos e Faturação
+
+        Registo de pagamentos (dinheiro, transferência, cartão)
+
+        Geração de recibo/comprovativo (PDF)
+
+        Controle de inadimplência
+
+        Alertas de planos próximos do vencimento
+
+    📌 Extra:
+
+        Possibilidade de pagamentos parciais
+
+        Descontos e promoções
+
+    3.4 Controlo de Presenças
+
+        Check-in manual ou por:
+
+        QR Code
+
+        Cartão
+
+        Número de telefone
+
+        Bloqueio automático se o plano estiver vencido
+
+        Relatório de frequência por aluno
+
+    3.5 Gestão de Treinos
+
+        Criação de fichas de treino por aluno
+
+        Divisão por grupos musculares
+
+        Séries, repetições, carga e descanso
+
+        Histórico de evolução
+
+    3.6 Avaliação Física
+
+        Registo de peso, altura, IMC
+
+        Percentual de gordura
+
+        Medidas corporais
+
+        Comparação por período (evolução)
+
+    3.7 Gestão de Funcionários
+
+        Cadastro de instrutores e funcionários
+
+        Definição de permissões
+
+        Horários de trabalho
+
+        Registo de atividades
+
+    3.8 Relatórios
+
+        Financeiros (diário, mensal, anual)
+
+        Alunos ativos vs inativos
+
+        Planos mais vendidos
+
+        Frequência por período
+
+        Desempenho dos instrutores
+
+4. Fluxo básico do sistema (exemplo prático)
+
+    Receção cadastra um novo aluno
+
+    Escolhe o plano e regista o pagamento
+
+    Sistema gera recibo e ativa o plano
+
+    Aluno faz check-in diariamente
+
+    Instrutor cria e acompanha o treino
+
+    Sistema avisa quando o plano estiver a vencer
+
+    Administrador acompanha tudo via relatórios
